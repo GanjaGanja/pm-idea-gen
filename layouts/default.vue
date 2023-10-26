@@ -1,7 +1,11 @@
 <template>
-    <v-app>
-      <header>This is the header</header>
-      <slot></slot>
-      <footer>This is the footer</footer>
-    </v-app>
-  </template>
+  <v-app>
+    <header>
+      <!-- <VContainer> This is the header </VContainer> -->
+    </header>
+    <slot></slot>
+    <footer>
+      <!-- <VContainer> This is the footer </VContainer> -->
+    </footer>
+  </v-app>
+</template>
